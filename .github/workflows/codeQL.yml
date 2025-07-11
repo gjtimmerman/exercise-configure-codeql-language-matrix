@@ -28,3 +28,5 @@ jobs:
         
     strategy:
           fail-fast: false
+          matrix:
+            language: ['c-cpp', 'csharp', 'python']
